@@ -32,8 +32,8 @@ const SearchResults = ({ results }) => {
           },
           index
         ) => {
-          const a = moment(checkOutDate.split("-"));
-          const b = moment(checkInDate.split("-"));
+          const a = moment(checkOutDate, "YYYYMMDD");
+          const b = moment(checkInDate, "YYYYMMDD");
           return (
             <tbody key={index}>
               <tr>
