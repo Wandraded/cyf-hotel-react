@@ -68,3 +68,7 @@ header {
 .card img {
   height: 200px;
 }
+
+.selectedRow {
+  background-color: rgba(0, 0, 255, 0.13);
+}
